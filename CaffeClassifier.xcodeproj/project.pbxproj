@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCE18FE41EAA7E3900251404 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCE18FE31EAA7E3900251404 /* main.cpp */; };
+		FCE8B7FA1F86C5E900EAD44D /* libcaffe.so.1.0.0 in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B7F91F86C5E900EAD44D /* libcaffe.so.1.0.0 */; };
+		FCE8B7FC1F86C5EE00EAD44D /* libcaffe.so.1.0.0 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FCE8B7FB1F86C5EE00EAD44D /* libcaffe.so.1.0.0 */; };
+		FCE8B8041F86C9A000EAD44D /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B8031F86C9A000EAD44D /* libboost_system.dylib */; };
+		FCE8B8061F86C9AF00EAD44D /* libglog.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE8B8051F86C9AF00EAD44D /* libglog.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCE18FDE1EAA7E3900251404 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				FCE8B7FC1F86C5EE00EAD44D /* libcaffe.so.1.0.0 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FCE18FE01EAA7E3900251404 /* CaffeClassifier */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CaffeClassifier; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE18FE31EAA7E3900251404 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FCE8B7F31F86BD6A00EAD44D /* libcaffe.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcaffe.so; path = ../../../../../../../caffe/caffe/.build_release/lib/libcaffe.so; sourceTree = "<group>"; };
+		FCE8B7F51F86BD7800EAD44D /* libcaffe.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcaffe.so; path = ../../../../../../../caffe/caffe/.build_release/lib/libcaffe.so; sourceTree = "<group>"; };
+		FCE8B7F71F86C14B00EAD44D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FCE8B7F91F86C5E900EAD44D /* libcaffe.so.1.0.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcaffe.so.1.0.0; path = ../../../../../../../caffe/caffe/distribute/lib/libcaffe.so.1.0.0; sourceTree = "<group>"; };
+		FCE8B7FB1F86C5EE00EAD44D /* libcaffe.so.1.0.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcaffe.so.1.0.0; path = ../../../../../../../caffe/caffe/distribute/lib/libcaffe.so.1.0.0; sourceTree = "<group>"; };
+		FCE8B8031F86C9A000EAD44D /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = ../../../../../../../../../usr/local/lib/libboost_system.dylib; sourceTree = "<group>"; };
+		FCE8B8051F86C9AF00EAD44D /* libglog.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglog.dylib; path = ../../../../../../../../../usr/local/lib/libglog.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE18FDD1EAA7E3900251404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE8B7FA1F86C5E900EAD44D /* libcaffe.so.1.0.0 in Frameworks */,
+				FCE8B8041F86C9A000EAD44D /* libboost_system.dylib in Frameworks */,
+				FCE8B8061F86C9AF00EAD44D /* libglog.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE18FD71EAA7E3900251404 = {
+			isa = PBXGroup;
+			children = (
+				FCE8B7FB1F86C5EE00EAD44D /* libcaffe.so.1.0.0 */,
+				FCE8B7F51F86BD7800EAD44D /* libcaffe.so */,
+				FCE18FE21EAA7E3900251404 /* CaffeClassifier */,
+				FCE18FE11EAA7E3900251404 /* Products */,
+				FCE8B7F21F86BD6A00EAD44D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE18FE11EAA7E3900251404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE18FE01EAA7E3900251404 /* CaffeClassifier */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE18FE21EAA7E3900251404 /* CaffeClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				FCE18FE31EAA7E3900251404 /* main.cpp */,
+			);
+			path = CaffeClassifier;
+			sourceTree = "<group>";
+		};
+		FCE8B7F21F86BD6A00EAD44D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8B8051F86C9AF00EAD44D /* libglog.dylib */,
+				FCE8B8031F86C9A000EAD44D /* libboost_system.dylib */,
+				FCE8B7F91F86C5E900EAD44D /* libcaffe.so.1.0.0 */,
+				FCE8B7F71F86C14B00EAD44D /* Accelerate.framework */,
+				FCE8B7F31F86BD6A00EAD44D /* libcaffe.so */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE18FDF1EAA7E3900251404 /* CaffeClassifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE18FE71EAA7E3900251404 /* Build configuration list for PBXNativeTarget "CaffeClassifier" */;
+			buildPhases = (
+				FCE18FDC1EAA7E3900251404 /* Sources */,
+				FCE18FDD1EAA7E3900251404 /* Frameworks */,
+				FCE18FDE1EAA7E3900251404 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaffeClassifier;
+			productName = CaffeClassifier;
+			productReference = FCE18FE01EAA7E3900251404 /* CaffeClassifier */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE18FD81EAA7E3900251404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TGS;
+				TargetAttributes = {
+					FCE18FDF1EAA7E3900251404 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCE18FDB1EAA7E3900251404 /* Build configuration list for PBXProject "CaffeClassifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCE18FD71EAA7E3900251404;
+			productRefGroup = FCE18FE11EAA7E3900251404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE18FDF1EAA7E3900251404 /* CaffeClassifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE18FDC1EAA7E3900251404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE18FE41EAA7E3900251404 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FCE18FE51EAA7E3900251404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FCE18FE61EAA7E3900251404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCE18FE81EAA7E3900251404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"/Users/tsiebler/caffe/caffe/distribute/include/**",
+					/usr/local/include,
+					"/usr/local/opt/openblas/include/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/tsiebler/caffe/caffe/distribute/lib,
+					/usr/local/Cellar/boost/1.64.0/lib,
+					/usr/local/Cellar/gflags/2.2.0/lib,
+					/usr/local/Cellar/glog/0.3.4_1/lib,
+					"/usr/local/opt/protobuf@2.6/lib",
+					/usr/local/Cellar/opencv/3.3.0_3/lib,
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCE18FE91EAA7E3900251404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/tsiebler/caffe/caffe/distribute/include/**",
+					/usr/local/include,
+					"/usr/local/opt/openblas/include/**",
+				);
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/tsiebler/caffe/caffe/distribute/lib,
+					/usr/local/Cellar/boost/1.64.0/lib,
+					/usr/local/Cellar/gflags/2.2.0/lib,
+					/usr/local/Cellar/glog/0.3.4_1/lib,
+					"/usr/local/opt/protobuf@2.6/lib",
+					/usr/local/Cellar/opencv/3.3.0_3/lib,
+				);
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgcodecs",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_shape",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_video",
+					"-lopencv_videoio",
+					"-lopencv_videostab",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE18FDB1EAA7E3900251404 /* Build configuration list for PBXProject "CaffeClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE18FE51EAA7E3900251404 /* Debug */,
+				FCE18FE61EAA7E3900251404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE18FE71EAA7E3900251404 /* Build configuration list for PBXNativeTarget "CaffeClassifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE18FE81EAA7E3900251404 /* Debug */,
+				FCE18FE91EAA7E3900251404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE18FD81EAA7E3900251404 /* Project object */;
+}
